@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to top, #f2a02b, #df6f56); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.welcome-content{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-content img{
+    width: 90%;
+    margin-top: 10%;
+}
+
+.welcome-content .headertext{
+    margin-top: 15%;
+    color: #df6f56;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form input{
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+}
+
+.social {
+    display: flex;
+    width: 100%;justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    gap: 1rem;
+}
+
+.social img{
+    margin-top: 0;
+    width: 40px;
+}
+
+.submitbtn{
+    width: 80%;
+    height: 40px;
+    background: #df6f56;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.submitbtn:hover{
+    background: white;
+    border: 2px solid #df6f56;
+    color: #df6f56;
+}
+
+.welcome-content .headertext1{
+    margin-top: 15%;
+    color: #fff;
+    font-size: 300%;
+    font-weight: bolder;
+    text-align: center;
+}

@@ -1,0 +1,212 @@
+@import url("http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #11d0f2d5, #bffec5);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0%;
+
+}
+
+.contentbox{
+    text-align: center;
+    width: 100%;
+}
+
+.contentbox img{
+    width: 100px;
+    height: 100px;
+}
+
+.box-container {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding-bottom: 10px;
+}
+
+.box-container .options{
+    flex: 1 1 10rem;
+}
+
+
+.box-container .box{
+    margin-top: 5%;
+}
+
+.box-container .box img{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+thead{
+    background: rgb(0, 0, 0);
+}
+
+th{
+    padding: 5px 0px;
+    color: white;
+}
+
+td{
+    padding: 5px 0px;
+    font-weight: bolder;
+}
+
+nav{
+    width: fit-content;
+    border: 1px solid #666;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+nav input{ display: none; }
+nav label{
+    font-family: sans-serif;
+    padding: 10px 16px;
+    border-right: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+nav label:last-of-type{ border-right: 0; }
+nav label:hover{
+    background: #eee;
+}
+nav input:checked + label{
+    color: white;
+    background: #ff9900;
+}
+
+.submitbtn{
+    margin-top: 30px;
+    background-color: #00ce56;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    border: 0px solid transparent;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+
+.externalbtn{
+    margin-top: 30px;
+    background-color: #00ce56;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+    border: 0px solid transparent;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 50px;    
+}
+
+.linkbtn{
+    display: inline-grid;
+    border-radius: 10px;
+    background: rgb(255, 0, 191);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    width: 85%;
+}
+
+
+.backbtn img{
+    position: fixed;
+    bottom: 20px;
+    left: 44%;
+    width: 50px;
+}
+
+.designform{
+    text-align: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 10px 5px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+form .form-control{
+    margin-bottom: 20px;
+}
+
+form .form-control label{
+    display: block;
+    margin: auto;
+    margin-bottom: 3px;
+    width: 90%;
+    text-align: left;
+    color: #7d7d7d;
+}
+
+
+form .form-control input{
+    width: 90%;
+    height: 35px;
+    padding: 0px 5px ;
+    border-radius: 5px;
+}
+
+form .form-control select,
+form .form-control option{
+    width: 93%;
+    margin-right: 0px;
+    height: 35px;
+    padding: 0px 5px ;
+    border-radius: 5px;
+}
+
+.uploadfile{
+    width: 100px;
+}
+
+.logoutbtn{
+    background: #df6f56;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 7px 60px;
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+
+}
